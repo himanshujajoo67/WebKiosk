@@ -35,7 +35,7 @@ and open the template in the editor.
 				
 				<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="Login.html" >Logout</a></li>
+						<li><a href="homePage.jsp" >Logout</a></li>
 					</ul>
 				</div>
 			</div> <!-- container-->
@@ -45,22 +45,27 @@ and open the template in the editor.
 		<div class="jumbotron">
 			<div class="container text-center">
 			<h1>WELCOME</h1>
-			<p>NEW JERSEY COURT</p>
+			<h1>NEW JERSEY COURT</h1>
 			</div>
 		</div><!-- End jumbotron-->
-		
-		
-		
-                
-                <section>
+     <section>
 	<div class="container text-center">
 
 	<div class="form-group">
 	
 	<label for="ticket">SCAN BARCODE </label>
-	<input type="text" class="form-control" name="barcode"  placeholder="Enter the Barcode No                 (or use our Kiosk Machine Scanner)">
+	<input type="text" 
+               class="form-control" 
+               name="barcode"  
+               placeholder="Enter the Barcode No                 (or use our Kiosk Machine Scanner)">
 	<hr> 
 	
+	<label for="ticket">LICENSE PLATE NUMBER  </label>
+	<input type="text" 
+               class="form-control" 
+               name="licenseNo"  
+               placeholder="Enter Your License Plate Number">
+	<hr> 
 	
 	<!--<form action="search" class="form" method=""post>-->
 	<button type="submit" class="btn-lg btn-info">Search Ticket</button>
@@ -68,22 +73,15 @@ and open the template in the editor.
         
                 <nav class="nav">
 			<div class="container">
-				
-					
-					<h2><a href="">HELP</a></h2></
-					
-				
+					<h2><a href="">HELP</a></h2></	
 			</div> <!-- container-->
 
 		</nav>
-      
-	
-
 	</div>
 	
     </section>
 
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
         </script>
